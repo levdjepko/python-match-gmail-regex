@@ -7,6 +7,7 @@ import re
 import sys
 
 def useRegex(input):
+    # regex pattern
     pattern = re.compile(r'([A-Za-z0-9]+[.-_])*[A-Za-z0-9]+@gmail.com')
     return pattern.match(input, re.IGNORECASE)
 
