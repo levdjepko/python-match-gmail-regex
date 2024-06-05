@@ -16,9 +16,7 @@ if __name__ == '__main__':
     setOfNames = []
     for N_itr in range(N):
         first_multiple_input = input().rstrip().split()
-
-        firstName = first_multiple_input[0]
-        
+        firstName = first_multiple_input[0]        
         emailID = first_multiple_input[1]
         if(useRegex(emailID)):
             setOfNames.append(firstName)
